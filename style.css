@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+
+body {
+    font: 16px 100% Arial, sans-serif;
+    background-color: blueviolet;
+    color: white;
+}
+header {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    background-color: seagreen;
+}
+
+.logo {
+    height: 50px;
+    background-color: rgb(18, 4, 45);
+    font-size: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
